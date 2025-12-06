@@ -1,0 +1,45 @@
+/* MAIN BACKGROUND */
+[data-testid="stAppViewContainer"] {
+    background-color: #ffffff; /* white background */
+}
+
+/* SIDEBAR */
+[data-testid="stSidebar"] {
+    background-color: #1b5e20; /* deep company green */
+    color: white;
+}
+
+/* TITLES */
+h1, h2, h3 {
+    color: #1b5e20 !important; /* company green */
+}
+
+/* NORMAL TEXT */
+body, p, span, div, text, svg text {
+    color: #1b5e20 !important;
+}
+
+
+/* SUCCESS BOX (customize green) */
+.stAlert > div {
+    background-color: #e8f5e9 !important;
+    border-left: 4px solid #1b5e20 !important;
+}
+
+/* PLOTLY CHART BACKGROUND (white) */
+.js-plotly-plot .plotly {
+    background-color: #ffffff !important;
+}
+
+/* FIX PLOTLY AXIS TEXT */
+.js-plotly-plot text {
+    fill: #1b5e20 !important;  /* axis labels + tick labels */
+}
+
+/* GLOBAL PLOTLY HOVERBOX STYLE */
+.hoverlayer .hoverlabel {
+    background-color: #000000 !important;   /* white background */
+    border-color: #000000 !important;       /* company green border */
+    color: #ffffff !important;              /* text color */
+    font-weight: 600 !important;
+}
