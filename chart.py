@@ -45,9 +45,10 @@ ORDER BY dates ASC
 st.title("Sentiment Analysis Dashboard")
 
 st.write("""
-This dashboard sorts and visualizes sentiment analysis results from various platforms over time. This graph represents 
+This dashboard sorts and visualizes sentiment analysis results from various platforms over time. The graph below represents 
 the sentiement scores from social media and news sources, showing how public opinion evolves on different topics depending on
-the platform.
+the platform. Sentiment is described as "a view of or attitude toward a situation or event; an opinion." A score of -0.5 and below indicates
+negative sentiment, while a score above 0.5 indicates positive sentiment with the midrange being classified as neutral sentiment.
 """)
 
 df = load_data()
